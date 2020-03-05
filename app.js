@@ -1,5 +1,5 @@
 const express = require('express');
-const authRoutes = require('./routes/auth-routes')
+const authRoutes = require('./routes/auth-routes');
 const app = express();
 
 // set up viw engine
@@ -13,6 +13,6 @@ app.get('/',(req,res) =>{
     res.render('home')
 });
 
-app.listen(3000,() =>{
-console.log('Listen port 3000')
+app.listen(9999,() =>{
+console.log('Listen port 9999')
 });
